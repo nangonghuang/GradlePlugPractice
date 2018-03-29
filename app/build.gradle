@@ -8,8 +8,8 @@ buildscript {
         }
     }
     dependencies {
-//        classpath 'test.gradle.alan:plug:1.0.0'
-        classpath group: 'test.gradle.alan', name: 'plug', version: '1.0.0'
+        classpath 'test.gradle.alan:plug:1.1.0'
+//        classpath group: 'test.gradle.alan', name: 'plug', version: '1.0.0'
     }
 }
 apply plugin: 'plugin.test'
@@ -40,6 +40,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
+
 
 //class GreetingPlugin implements Plugin<Project> {
 //    void apply(Project project) {
